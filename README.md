@@ -1,6 +1,6 @@
 # On-Policy Self-Distillation
 
-Code and data for reproducing the paper "Self-Distillation Enables Continual Learning".
+This is TRL based code  for reproducing the paper "Self-Distillation Enables Continual Learning".
 
  All experiments can be run with a single H200 GPU. Other setups may require refactoring and/or changing model sizes.
 
